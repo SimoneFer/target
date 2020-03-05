@@ -9,6 +9,8 @@ public class OlaMundo {
 	
 	public static void main(String[] args) {
 		
+		
+		
 		int codigoPedigree = 12232;
 		Integer CodigoPedigree = 12232;
 		float pesoAnimal = 50.5f;
@@ -59,10 +61,34 @@ public class OlaMundo {
 		
 		System.out.println(!meuBoolean);
 		
-	
+		OlaMundo mundo = new OlaMundo();
+		double r = mundo.soma(1.0, 2.0);
 		
+	
+		System.out.println(r);
+		
+		OlaMundo om = new OlaMundo();
+		double resultado = om.subt(7.0, 2.0);
+		
+		System.out.println(" resultado da subtração="+resultado);
+		
+		OlaMundo olaMundo = new OlaMundo();
+		double segundovalor = 1024.0;
+		segundovalor = segundovalor - 100.0;
+		double resulta = olaMundo.soma(1.0, segundovalor);
+		System.out.println("O resultado da minha soma é " + resultado);
 		
 		
 	}
+	
+	public Double soma(Double d1, Double d2) {
+		return d1 + d2;
+	}
+	
+	public Double subt(Double d7, Double d2) {
+		return d7 - d2;
+	}
+	}
+	
 
-}
+
