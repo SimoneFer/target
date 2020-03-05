@@ -78,6 +78,9 @@ public class OlaMundo {
 		double resulta = olaMundo.soma(1.0, segundovalor);
 		System.out.println("O resultado da minha soma é " + resultado);
 		
+		om.imprimeNaTelaBoaNoite();
+		System.out.println("Boa Noite");
+		
 		
 	}
 	
@@ -88,7 +91,14 @@ public class OlaMundo {
 	public Double subt(Double d7, Double d2) {
 		return d7 - d2;
 	}
+	
+	private void imprimeNaTelaBoaNoite() {
+		
 	}
 	
+	
+
+}
+
 
 
